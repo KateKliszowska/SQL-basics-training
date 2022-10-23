@@ -12,9 +12,14 @@ This list includes both the file names and their content for better content mapp
 
 | Filename         | Description of content |
 |----------------: | ---------------------: |
-| sql-practice.txt | basic SELECT statement |
-
-
+| sql-practice.txt | basic SELECT statement, SELECT DISTINCT, SELECT COUNT (variables) |
+| amount-etc.txt   | SUM, HAVING, basic formatting |
+| joins.txt | INNER JOIN, FULL OUTER JOIN, LEFT JOIN, RIGHT JOIN |
+| like-and-other.txt | LIKE statement, wildcards, 
+| more-complex-queries.txt | mixture of queries |
+| case.txt| CASE, embedded SELECT |
+| create-table.txt | CREATE table, fill in with data (not yet created)
+| dropping-table.txt | DROP table, TRUNCATE, getting rid of the table (not yet created) | | 
 
 
 ### Certificate
