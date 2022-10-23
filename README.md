@@ -2,7 +2,7 @@
 
 This repository is a simple container for SQL queries. All of the queries placed in this repository are training queries written for practice reasons, working on an existing free-access database.
 
-I'm using SQL in every day work, yet the Project I'm in de=oesn't give much chance for practicing more complex sql queriesm basically I'm using the SELECT statement foth filtering, UPDATE or DELETE for test data creation, yet practice is necessary and requires more complex commands as well.
+I'm using SQL in every day work, yet the Project I'm in de=oesn't give much chance for practicing more complex sql queriesm basically I'm using the SELECT statement foth filtering, UPDATE or DELETE for test data creation, yet practice is necessary and requires more complex commands as well, so I embarked on a SQL bootcamp and the following materials are the effect of that action.
 
 ***
 
@@ -23,6 +23,11 @@ This list includes both the file names and their content for better content mapp
 
 
 ### Certificate
+
+Since this repository is based on sql exercises, it is connected with a training I took on SQL.
+The certificate of completion is displayed below (as a link)
+
+***
 
 [link text] (https://www.udemy.com/certificate/UC-5cc635bb-9118-44b8-aa91-1d1b3ba33a92/)
 
