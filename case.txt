@@ -1,0 +1,73 @@
+select customer_id,
+case 
+	when (customer_id <= 100) then 'Premium_customer'
+	when (customer_id between 100 and 200) then 'Plus'
+	else 'Nouvouriche'
+end as customer_class
+from customer;
+
+select customer_id,
+case
+	when customer_id = 167 then 'WINNER'
+	when customer_id = 2 then 'LOOSER'
+	else 'NOWIN'
+end as winner_results
+from customer;
+
+select * from film;
+select
+sum(case rental_rate
+	when 0.99 then 1
+	else 0
+	end) as number_of_bargains,
+	sum(case rental_rate
+	   when 2.99 then 1
+	   else 0
+	   end) as regular_price,
+	   sum(case rental_rate
+		  when 4.99 then 1
+		  else 0
+		  end) as premium
+from film;
+
+create table depts(
+first_name varchar(50) primary key,
+	department varchar(10)
+);
+select * from depts;
+insert into depts(
+first_name,department)
+values
+('Linton','A'),
+('Lauren','A'),
+('Claire','B');
+
+select (
+sum(case when department = 'A' then 1 else 0 end)/
+	sum(case when department = 'B' then 1 else 0 end)
+) as department_ratio
+from depts;
+
+delete from depts
+where department = 'B';
+select * from depts;
+
+sum(case when department = 'B' then 1 else 0 end)
+);
+
+select (
+sum(case when department = 'A' then 1 else 0 end)/
+	nullif(sum(case when department = 'B' then 1 else 0 end),0)
+)as department_ratio
+from depts;
+create view customer_basic as
+select first_name, last_name, address from customer
+inner join address
+on
+customer.address_id = address.address_id;
+select * from customer_basic;
+create or replace view customer_basic as
+select first_name, last_name, address, district from customer
+inner join address
+on
+customer.address_id = address.address_id;
