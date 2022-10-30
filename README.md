@@ -2,7 +2,9 @@
 
 This repository is a simple container for SQL queries. All of the queries placed in this repository are training queries written for practice reasons, working on an existing free-access database.
 
-I'm using SQL in every day work, yet the Project I'm in de=oesn't give much chance for practicing more complex sql queriesm basically I'm using the SELECT statement foth filtering, UPDATE or DELETE for test data creation, yet practice is necessary and requires more complex commands as well, so I embarked on a SQL bootcamp and the following materials are the effect of that action.
+I'm using SQL in every day work, yet the Project I'm in doesn't give much chance for practicing more complex sql queries. 
+
+Basically I'm using the SELECT statement foth filtering, UPDATE or DELETE for test data creation, yet practice is necessary and requires more complex commands as well, so I embarked on a SQL bootcamp and the following materials are the effect of that action.
 
 ***
 
